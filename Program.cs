@@ -10,14 +10,25 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
-            string characterName = "John";
-            int characterAge;
-            characterAge = 35;
 
-            Console.WriteLine("There once was a man named " + characterName);
-            Console.WriteLine("He was " + characterAge + " years old");
-            Console.WriteLine("He really liked the name " + characterName);
-            Console.WriteLine("But didn't like being " + characterAge);
+            //core data types in csharp
+
+            //characters 
+            string phrase = "I am Malawian";
+            char grade = 'A';
+
+
+            //numbers 
+            int age = 30;
+            //decimal point number
+            //precion goes from float to decimal
+            float price = 29.95f;
+            double highTemp = 103.4;
+            decimal money = 19.95m;
+
+            //boolean, stores true of false
+            bool isHappy = true;
+            bool isSad = false;
 
             Console.ReadLine();
         }

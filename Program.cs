@@ -10,12 +10,17 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.Write("Enter your age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Hello "+name);
-            Console.WriteLine("You are " + age + " years old");
+            int num = Convert.ToInt32("43"); //convert string to int
+            Console.WriteLine(num);
+
+
+            Console.WriteLine("Enter a number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter anotherf number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);
+
 
             Console.ReadLine();
         }

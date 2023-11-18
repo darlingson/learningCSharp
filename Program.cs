@@ -10,25 +10,21 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
+            string name = "Darlingson" + " is cool"; //string concatenation
+            Console.WriteLine("Darlingson");
+            Console.WriteLine("Darlingson\nMakuwila"); //printing to new line
+            Console.WriteLine("Darlingson\"Makuwila"); //deleniting a "
 
-            //core data types in csharp
+            Console.WriteLine(name);// printing a string from variable
+            Console.WriteLine(name.Length); //length of string
 
-            //characters 
-            string phrase = "I am Malawian";
-            char grade = 'A';
-
-
-            //numbers 
-            int age = 30;
-            //decimal point number
-            //precion goes from float to decimal
-            float price = 29.95f;
-            double highTemp = 103.4;
-            decimal money = 19.95m;
-
-            //boolean, stores true of false
-            bool isHappy = true;
-            bool isSad = false;
+            //String methods
+            Console.WriteLine(name.ToUpper()); //uppercase
+            Console.WriteLine(name.ToLower()); //lowercase
+            Console.WriteLine(name.Contains("is cool")); //checking for substring
+            Console.WriteLine(name[0]); // finding the character at index 0
+            Console.WriteLine(name.IndexOf("is")); //find the position of substring
+            Console.WriteLine(name.Substring(11));
 
             Console.ReadLine();
         }

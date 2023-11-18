@@ -10,17 +10,20 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
-            int num = Convert.ToInt32("43"); //convert string to int
-            Console.WriteLine(num);
+            string color, pluralNoun, celebrity;
 
+            Console.Write("Enter a color:");
+            color = Console.ReadLine();
 
-            Console.WriteLine("Enter a number: ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter anotherf number: ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter a plural noun:");
+            pluralNoun = Console.ReadLine();
 
-            Console.WriteLine(num1 + num2);
+            Console.Write("Enter a celebrity:");
+            celebrity = Console.ReadLine();
 
+            Console.WriteLine("Roses are "+ color);
+            Console.WriteLine(pluralNoun + " are blue");
+            Console.WriteLine("I love "+ celebrity);
 
             Console.ReadLine();
         }

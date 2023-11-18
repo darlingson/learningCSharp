@@ -10,9 +10,12 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(5+8);// csharp will add the numbers and print the result
-            Console.WriteLine(5 + 9 * 2);// normal order of operation
-            Console.WriteLine((5 + 9) * 2);// specified order of operation
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello "+name);
+            Console.WriteLine("You are " + age + " years old");
 
             Console.ReadLine();
         }

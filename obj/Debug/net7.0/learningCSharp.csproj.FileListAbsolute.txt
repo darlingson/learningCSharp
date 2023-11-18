@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\learningCSharp\bin\Debug\net7.0\learningCSharp.exe
+C:\Users\HP\source\repos\learningCSharp\bin\Debug\net7.0\learningCSharp.deps.json
+C:\Users\HP\source\repos\learningCSharp\bin\Debug\net7.0\learningCSharp.runtimeconfig.json
+C:\Users\HP\source\repos\learningCSharp\bin\Debug\net7.0\learningCSharp.dll
+C:\Users\HP\source\repos\learningCSharp\bin\Debug\net7.0\learningCSharp.pdb
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.AssemblyInfo.cs
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.dll
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\refint\learningCSharp.dll
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.pdb
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\learningCSharp.genruntimeconfig.cache
+C:\Users\HP\source\repos\learningCSharp\obj\Debug\net7.0\ref\learningCSharp.dll

@@ -10,18 +10,27 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
-            //C# return statements
-            Console.Write("The number to cube:");
-            int num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(Cube(num));
+            //C# if statements
+            bool isMale = false;
+            bool isTall = false;
 
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a Tall Male");
+            }else if (isMale && !isTall)
+            {
+                Console.WriteLine("You are a short male");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are a tall female");
+            }
+            else
+            {
+                Console.WriteLine("You are a short Female");
+            }
 
             Console.ReadLine();
-        }
-        static int Cube(int num)
-        {
-            int cube = num * num * num;
-            return cube;
         }
     }
 }

@@ -10,20 +10,13 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
-            string color, pluralNoun, celebrity;
+            int[] luckyNumbers = {4,8,16,23,42 };
+            string[] friends = new string[5];
+            friends[0] = "Mphatso";
+            friends[1] = "Chicco";
 
-            Console.Write("Enter a color:");
-            color = Console.ReadLine();
-
-            Console.Write("Enter a plural noun:");
-            pluralNoun = Console.ReadLine();
-
-            Console.Write("Enter a celebrity:");
-            celebrity = Console.ReadLine();
-
-            Console.WriteLine("Roses are "+ color);
-            Console.WriteLine(pluralNoun + " are blue");
-            Console.WriteLine("I love "+ celebrity);
+            luckyNumbers[1] = 900;
+            Console.WriteLine(luckyNumbers[1]);
 
             Console.ReadLine();
         }

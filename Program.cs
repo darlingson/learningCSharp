@@ -10,15 +10,18 @@ namespace learningCSharp
     {
         static void Main(string[] args)
         {
-            //C# methods
-            Console.Write("What is your name?:");
-            string name = Console.ReadLine();
-            SayHi(name);
+            //C# return statements
+            Console.Write("The number to cube:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(Cube(num));
+
+
             Console.ReadLine();
         }
-        static void SayHi(string name)
+        static int Cube(int num)
         {
-            Console.WriteLine("Hello User "+ name);
+            int cube = num * num * num;
+            return cube;
         }
     }
 }

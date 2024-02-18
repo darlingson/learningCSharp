@@ -14,7 +14,8 @@ namespace learningCSharp
             //Console.WriteLine(GetMax(2,5));
 
             //Console.ReadLine();
-            calculator();
+            //calculator();
+            switchStatement();
         }
         static int GetMax(int num1, int num2)
         {
@@ -63,6 +64,37 @@ namespace learningCSharp
             {
                 Console.WriteLine("Invalid operator");
             }
+        }
+
+        static void switchStatement()
+        {
+            Console.Write("Enter a day number :");
+            int dayNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(GetDay(dayNum));
+        }
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+            switch (dayNum)
+            {
+                case 0:
+                    dayName = "Sunday";
+                    break;
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednsday";
+                    break;
+                default:
+                    dayName = "Invalid Day Number";
+                    break;
+            }
+
+            return dayName;
         }
 
     }

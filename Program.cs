@@ -15,7 +15,9 @@ namespace learningCSharp
 
             //Console.ReadLine();
             //calculator();
-            switchStatement();
+            //switchStatement();
+            whileLoop();
+            dowhileloop();
         }
         static int GetMax(int num1, int num2)
         {
@@ -96,6 +98,23 @@ namespace learningCSharp
 
             return dayName;
         }
-
+        static void whileLoop()
+        {
+            int index = 1;
+            while (index <= 5)
+            {
+                Console.WriteLine(index);
+                index++;
+            }
+        }
+        static void dowhileloop()
+        {
+            int index = 6;
+            do
+            {
+                Console.WriteLine(index);
+                index++;
+            }while (index <= 5);
+        }
     }
 }

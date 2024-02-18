@@ -1,37 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace learningCSharp
 {
-    class Program
+    public class Calculator
     {
-        static void Main(string[] args)
-        {
-            //C# if statements part 2
-            //Console.WriteLine(GetMax(2,5));
-
-            //Console.ReadLine();
-            calculator();
-        }
-        static int GetMax(int num1, int num2)
-        {
-            int result;
-
-            if (num1 > num2)
-            {
-                result = num1;
-            }
-            else
-            {
-                result = num2;
-            }
-
-            return result;
-        }
-        static void calculator()
+        static void CalculatorMain()
         {
             Console.Write("Enter a number");
             double num1 = Convert.ToDouble(Console.ReadLine());
@@ -43,11 +16,11 @@ namespace learningCSharp
             double num2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("hi");
 
-            if (op == "+")
+            if(op == "+")
             {
                 Console.WriteLine(num1 + num2);
             }
-            else if (op == "-")
+            else if(op == "-")
             {
                 Console.WriteLine(num1 - num2);
             }

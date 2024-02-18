@@ -18,7 +18,8 @@ namespace learningCSharp
             //switchStatement();
             //whileLoop();
             //dowhileloop();
-            guessingGame();
+            //guessingGame();
+            forLoop();
         }
         static int GetMax(int num1, int num2)
         {
@@ -144,6 +145,22 @@ namespace learningCSharp
             }
             else {
                 Console.WriteLine("You Win");
+            }
+        }
+        static void forLoop()
+        {
+            Console.WriteLine("while loop");
+            int i = 1;
+            while (i <= 5)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            Console.WriteLine("for loop");
+            for (int index =1; index <= 5; index++)
+            {
+                Console.WriteLine(index);
             }
         }
     }

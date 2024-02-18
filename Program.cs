@@ -16,8 +16,9 @@ namespace learningCSharp
             //Console.ReadLine();
             //calculator();
             //switchStatement();
-            whileLoop();
-            dowhileloop();
+            //whileLoop();
+            //dowhileloop();
+            guessingGame();
         }
         static int GetMax(int num1, int num2)
         {
@@ -115,6 +116,35 @@ namespace learningCSharp
                 Console.WriteLine(index);
                 index++;
             }while (index <= 5);
+        }
+        static void guessingGame()
+        {
+            string secretWord = "Darlingson";
+            string guess = "";
+            int guessCount = 0;
+            int guessLimit = 3;
+            bool outOfGuesses = false;
+
+            while (guess != secretWord && !outOfGuesses)
+            {
+                if (guessCount < guessLimit)
+                {
+                    Console.Write("Enter Guess");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                }
+                else
+                {
+                    outOfGuesses = true;
+                }
+            }
+            if (outOfGuesses)
+            {
+                Console.WriteLine("you lose");
+            }
+            else {
+                Console.WriteLine("You Win");
+            }
         }
     }
 }

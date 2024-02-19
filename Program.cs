@@ -20,7 +20,8 @@ namespace learningCSharp
             //whileLoop();
             //dowhileloop();
             //guessingGame();
-            forLoop();
+            //forLoop();
+            exponents();
         }
         static int GetMax(int num1, int num2)
         {
@@ -170,6 +171,20 @@ namespace learningCSharp
             {
                 Console.WriteLine(luckyNumbers[index]);
             }
+        }
+        static void exponents()
+        {
+            Console.WriteLine(GetPow(2, 3));
+            Console.WriteLine(GetPow(3, 2));
+        }
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result =1;
+            for (int index = 0; index < powNum; index++)
+            {
+                result = result * baseNum;
+            }
+            return result;
         }
     }
 }

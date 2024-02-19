@@ -21,7 +21,8 @@ namespace learningCSharp
             //dowhileloop();
             //guessingGame();
             //forLoop();
-            exponents();
+            //exponents();
+            twoDArray();
         }
         static int GetMax(int num1, int num2)
         {
@@ -185,6 +186,18 @@ namespace learningCSharp
                 result = result * baseNum;
             }
             return result;
+        }
+        static void twoDArray()
+        {
+            int[,] numberGrid =
+            {
+                {1,2 },
+                {3,4 },
+                {5,6},
+            };
+            Console.WriteLine(numberGrid[0, 0]);
+            Console.WriteLine(numberGrid[1, 1]);
+
         }
     }
 }

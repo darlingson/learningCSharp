@@ -22,7 +22,8 @@ namespace learningCSharp
             //guessingGame();
             //forLoop();
             //exponents();
-            twoDArray();
+            //twoDArray();
+            exceptionHandling();
         }
         static int GetMax(int num1, int num2)
         {
@@ -198,6 +199,31 @@ namespace learningCSharp
             Console.WriteLine(numberGrid[0, 0]);
             Console.WriteLine(numberGrid[1, 1]);
 
+        }
+        static void exceptionHandling()
+        {
+            try
+            {
+                Console.WriteLine("Enter a number");
+                int number1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter a number");
+                int number2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(number1 / number2);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("Error : Invalid input");
+                Console.WriteLine(e.Message);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("");
+            }
         }
     }
 }

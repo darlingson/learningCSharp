@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization.Formatters;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -161,6 +162,13 @@ namespace learningCSharp
             for (int index =1; index <= 5; index++)
             {
                 Console.WriteLine(index);
+            }
+
+
+            int[] luckyNumbers = {4,8,15,16,23,42 };
+            for(int index =0; index < luckyNumbers.Length; index++)
+            {
+                Console.WriteLine(luckyNumbers[index]);
             }
         }
     }

@@ -250,6 +250,12 @@ namespace learningCSharp
             Console.WriteLine(student1.HasHonors());
             Console.WriteLine(student2.HasHonors());
 
+
+            Movie movie1 = new Movie("Avengers", "Joss Whedon", "PG-13");
+            Movie movie2 = new Movie("Shrek", "Adam Adamson", "Dog");
+
+            Console.WriteLine(movie2.Rating);
+
         }
     }
 }

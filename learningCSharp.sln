@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2EADDB3-AF20-42D3-AE73-9E46BBC0B78F}"
 	ProjectSection(SolutionItems) = preProject
 		Book.cs = Book.cs
+		Movie.cs = Movie.cs
 		Student.cs = Student.cs
 	EndProjectSection
 EndProject

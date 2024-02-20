@@ -24,7 +24,8 @@ namespace learningCSharp
             //exponents();
             //twoDArray();
             //exceptionHandling();
-            objectsandclasses();
+            //objectsandclasses();
+            staticmethodsandclasses();
 
 
         }
@@ -264,6 +265,11 @@ namespace learningCSharp
 
             Console.WriteLine(Song.SongCount);
             Console.WriteLine(holiday.getSongCount());
+        }
+        public static void staticmethodsandclasses()
+        {
+            Console.WriteLine(Math.Sqrt(144));
+            UsefulTools.SayHi("Darlingson");
         }
     }
 }

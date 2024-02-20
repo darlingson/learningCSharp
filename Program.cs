@@ -242,6 +242,14 @@ namespace learningCSharp
 
             Console.WriteLine(book1.title);
             Console.WriteLine(book2.pages);
+
+
+            Student student1 = new Student("Jim","Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
+
         }
     }
 }

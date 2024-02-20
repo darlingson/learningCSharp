@@ -256,6 +256,14 @@ namespace learningCSharp
 
             Console.WriteLine(movie2.Rating);
 
+            Song holiday = new Song("Holiday","Green Day",200);
+            Song Kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+
+            Console.WriteLine(holiday.title);
+            Console.WriteLine(holiday.artist);
+
+            Console.WriteLine(Song.SongCount);
+            Console.WriteLine(holiday.getSongCount());
         }
     }
 }

@@ -25,7 +25,8 @@ namespace learningCSharp
             //twoDArray();
             //exceptionHandling();
             //objectsandclasses();
-            staticmethodsandclasses();
+            //staticmethodsandclasses();
+            inheritance();
 
 
         }
@@ -270,6 +271,16 @@ namespace learningCSharp
         {
             Console.WriteLine(Math.Sqrt(144));
             UsefulTools.SayHi("Darlingson");
+        }
+        public static void inheritance()
+        {
+            Chef chef = new Chef();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken();
+            italianChef.makePawn();
+            italianChef.MakeSpecialDish();
         }
     }
 }
